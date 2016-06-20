@@ -231,7 +231,7 @@
     "frontEndIPConfigID": "[concat(variables('lbID'),'/frontendIPConfigurations/loadBalancerFrontEnd')]",
     "glusterOS": "Ubuntu",
     "glusterStorageAccountName": "[concat('gl',parameters('storageAccountNamePrefix'))]",
-    "glusterSubnetName": "drupglussubnet",
+    "glusterSubnetName": "odnrdrupglussub",
     "glusterSubnetPrefix": "10.0.0.0/24",
     "glusterVMIPPrefix": "10.0.0.1",
     "glusterVMNamePrefix": "glus",
