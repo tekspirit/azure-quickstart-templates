@@ -1,13 +1,13 @@
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F301-drupal8-vmss-glusterfs-mysql%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftekspirit%2Fazure-quickstart-templates%2Fmaster%2F301-drupal8-vmss-glusterfs-mysql%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F301-drupal8-vmss-glusterfs-mysql%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Ftekspirit%2Fazure-quickstart-templates%2Fmaster%2F301-drupal8-vmss-glusterfs-mysql%2Fazuredeploy.json" target="_blank">
   <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
 # Drupal 8 VM scaleset (with GlusterFS and MySQL) Template
 
-This template deploys a Drupal 8 installation using a VM scale set.  It has the following capabilities:
+This template deploys a Drupal 7.44 installation using a VM scale set.  It has the following capabilities:
 
 - Maximum and minimum number of Drupal 8 VMs in the scaleset can be configured. each of these uses Ubuntu OS
 - The template also deploys a Gluster cluster, where the number of nodes is configurable. The OS used by the Gluster VMs is also ubuntu. The Drupal nodes mount the gluster volume, where the settings file and files folder are stored
@@ -36,7 +36,7 @@ You can either deploy using an existing MySQL server, or by creating mysql serve
 ### How to SSH into the Drupal VMs
 * You can ssh into the VMs in the VM scaleset if needed, using the inbound NAT Pool ports on the load balancer. So for VM 0 ssh in to port 50000, for VM 1 ssh to port 50001 and so on. You can use https://resources.azure.com/ to see the VMs in the VM scale set. See Screen shot below:
 
- ![SSH into Drupal VMs](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/301-drupal8-vmss-glusterfs-mysql/images/azureResourceExplorer.png "SSH into Drupal VMs")
+ ![SSH into Drupal VMs](https://raw.githubusercontent.com/tekspirit/azure-quickstart-templates/master/301-drupal8-vmss-glusterfs-mysql/images/azureResourceExplorer.png "SSH into Drupal VMs")
 
 ### Backlog of Planned Changes
 * Updrade to PHP7 
