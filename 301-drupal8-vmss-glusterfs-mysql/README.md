@@ -5,7 +5,7 @@
   <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
-# Drupal 8 VM scaleset (with GlusterFS and MySQL) Template
+# Drupal 7.44 VM scaleset (with GlusterFS and MySQL) Template
 
 This template deploys a Drupal 7.44 installation using a VM scale set.  It has the following capabilities:
 
