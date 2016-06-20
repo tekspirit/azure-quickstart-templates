@@ -24,7 +24,7 @@
 
 
 # Variables - Initialize default values
-DRUPAL_VERSION="8.1.1"
+DRUPAL_VERSION="7.44"
 DRUPAL_ADMIN_USER="admin"
 DRUPAL_ADMIN_PASSWORD=""
 IS_FIRST_MEMBER=false
